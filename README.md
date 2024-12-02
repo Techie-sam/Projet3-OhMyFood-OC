@@ -5,6 +5,9 @@ OhMyFood! est une application web mobile-first qui répertorie les menus de rest
 
 Développé dans le cadre du projet 3 du parcours "Développeur web" d'OpenClassrooms.
 
+## 🌐 Demo
+Voir le site en direct : [OhMyFood](https://techie-sam.github.io/Projet3-OhMyFood-OC/)
+
 ## 🚀 Fonctionnalités
 - Navigation fluide et intuitive
 - Animations CSS élégantes
