@@ -1,44 +1,56 @@
+# OhMyFood! 🍽️
 
-# OhMyFood !
+## Description
+OhMyFood! est une application web mobile-first qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée.
 
-C'est le troisième projet du parcours "Développeur web" de chez OpenClassrooms. 
-Le but est d'intégrer et de dynamiser une page web avec des animations CSS en utilisant Sass.
+Développé dans le cadre du projet 3 du parcours "Développeur web" d'OpenClassrooms.
 
+## 🚀 Fonctionnalités
+- Navigation fluide et intuitive
+- Animations CSS élégantes
+- Design responsive (mobile-first)
+- Système de like pour les restaurants favoris
+- Composition de menu personnalisé
+- Loading spinner animé
+- Effets visuels interactifs sur les menus
 
+## 🛠️ Technologies
+- HTML5
+- SASS/CSS3
+- Pas de JavaScript (animations pure CSS)
+- Pas de frameworks CSS
 
-## Technologies
-✅ Autorisé: HTML - SASS - CSS (Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML).
+## 💫 Animations
+- **Loading Spinner** : Animation de chargement à l'entrée du site (1-3 secondes)
+- **Boutons** : Effet de surbrillance et d'ombre portée au hover
+- **Cœurs "Like"** : Remplissage progressif au survol
+- **Menus** : 
+  - Apparition progressive des plats
+  - Animation de sélection avec coche coulissante
+  - Troncature élégante des textes longs
 
-🚫 Interdit : Frameworks CSS - Inline CSS - Javascript.
+## 📱 Pages
+- Page d'accueil avec présentation des restaurants
+- 4 pages de menus de restaurants gastronomiques parisiens
 
+## 🌐 Compatibilité
+- Chrome (dernière version)
+- Firefox (dernière version)
+- Safari (dernière version)
 
+## 📋 Standards
+- Validation W3C HTML et CSS
+- Design responsive
+- Approche mobile-first
 
-## Enjeux
-- Développer un site proposant le menu de 4 grands restaurants parisiens.
-- Permettre la réservation en ligne et la composition de menus.
-## Livrables
- 📃 Pages à intégrer selon les maquettes :
-- Page d’accueil
-- Pages de menu (x4)
-🔵Animation
+## 🚀 Installation
+1. Clonez ce dépôt
+2. Ouvrez `index.html` dans votre navigateur
 
-🔸Boutons
-
-- Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
-- À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, unbouton "J’aime" en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement. Pour cette première version, l’effet peut être apparaître au survol au lieu du clic.
-
-🔸Page d’accueil
-
-- Quand l’application aura plus de menus, un “loading spinner” sera nécessaire. Sur cette maquette, nous souhaitons en avoir un aperçu. Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accueil, couvrir l'intégralité de l'écran, et utiliser les animations CSS (pas de librairie). Le design de ce loader n’est pas défini,toute proposition est donc la bienvenue tant qu’elle est cohérente avec la chartegraphique du site.
-
-🔸Pages de menu
-
-- À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe “Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.
-- Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. Cette coche devra coulisser dela droite vers la gauche. Pour cette première version, l’effet peut apparaître au survolau lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension. Un exemple de l’effet attendu est fourni.
-## Note
-- La maquette desktop est à improviser. 
-- Faire passer les codes au validateur : W3C.
-- Compatibilité : Dernières versions de Chrome, Firefox & Safari.
+## 📝 Notes de développement
+- Aucun code CSS n'est appliqué via des attributs style dans le HTML
+- Les animations sont réalisées uniquement en CSS, sans JavaScript
+- Le design desktop a été optimisé pour une expérience utilisateur fluide
 
 ## Vous pouvez retrouver le brief complet ici 👇🏾
 [Click here](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/DW+P3+-+Brief+creatif+-+Ohmyfood!.pdf)
